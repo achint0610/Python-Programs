@@ -1,0 +1,10 @@
+class student:
+    def __init__(self):
+        self.name='Achint Rawal'
+        self.rollno=13
+    def printvalue(self):
+        print("Rollno=",self.rollno)
+        print("name=",self.name)
+s1=student()
+s1.printvalue()
+a=int(input())
